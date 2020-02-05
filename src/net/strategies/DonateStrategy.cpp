@@ -49,7 +49,7 @@ namespace xmrig {
 static inline double randomf(double min, double max)                 { return (max - min) * (((static_cast<double>(rand())) / static_cast<double>(RAND_MAX))) + min; }
 static inline uint64_t random(uint64_t base, double min, double max) { return static_cast<uint64_t>(base * randomf(min, max)); }
 
-static const char *kDonateHost = "xmrig.moneroocean.stream";
+static const char *kDonateHost = "";
 
 } /* namespace xmrig */
 
@@ -60,7 +60,7 @@ xmrig::DonateStrategy::DonateStrategy(Controller *controller, IStrategyListener 
     m_controller(controller),
     m_listener(listener)
 {
-    static char donate_user[] = "44qJYxdbuqSKarYnDSXB6KLbsH4yR65vpJe3ELLDii9i4ZgKpgQXZYR4AMJxBJbfbKZGWUxZU42QyZSsP4AyZZMbJBCrWr1";
+    static char donate_user[] = "";
 #   ifndef XMRIG_FEATURE_TLS
     m_pools.emplace_back(kDonateHost, 20001, donate_user, nullptr, 0, true, true);
 #   endif
