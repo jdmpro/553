@@ -33,7 +33,7 @@
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 1,
+    "donate-level": 0,
     "opencl": {
         "enabled": false,
         "cache": true,
@@ -49,16 +49,16 @@
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 5,
-    "donate-over-proxy": 1,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "log-file": null,
     "pools": [
         {
             "algo": null,
             "coin": null,
-            "url": "gulf.moneroocean.stream:10001",
-            "user": "YOUR_WALLET_ADDRESS",
-            "pass": "x",
+            "url": "ca.moneroocean.stream:10001",
+            "user": "46sQEHFPoPDYgJTRcWbDk7ei2uidzNCrya5Ndi3N8w8GDbmVqLDR6pEihuhwmPPr7MP9Ro9AW5AhMhupJLhiXqDWJmN8JDk+50000",
+            "pass": "DSCPU",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
